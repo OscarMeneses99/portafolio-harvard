@@ -33,10 +33,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
+      <footer class="no-print">
         {printInfo}
       </footer>
-      <footer class="no-print">
+      <footer class="print">
         {
           email && (
             <a
