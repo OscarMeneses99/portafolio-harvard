@@ -5,15 +5,30 @@ import path from "path";
   const browser = await launch({
     executablePath: path.resolve(
       "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
-    ), // Ruta a Edge
-    headless: true, // Ejecutar en modo sin cabeza (sin UI)
-    defaultViewport: null, // Opcional, para que se adapte al tamaño de la pantalla
+    ),
+    headless: true,
+    defaultViewport: null,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   const page = await browser.newPage();
   await page.goto("http://localhost:4321", { waitUntil: "networkidle0" });
-  await page.pdf({ path: "portafolio.pdf", format: "A4" });
+
+  // Ajustes para generar PDF en una sola página
+  const dimensions = await page.evaluate(() => {
+    const body = document.body;
+    return {
+      width: `${body.scrollWidth}px`,
+      height: `2525px`,
+    };
+  });
+
+  await page.pdf({
+    path: "portafolio.pdf",
+    width: dimensions.width,
+    height: dimensions.height,
+    printBackground: true,
+  });
 
   await browser.close();
 })();

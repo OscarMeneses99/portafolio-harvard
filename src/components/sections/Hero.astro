@@ -35,7 +35,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="no-print">
+      <footer class="print">
         <ul>
           <li>
             <Mail/>
@@ -55,7 +55,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           </li>
         </ul>
       </footer>
-      <footer class="print">
+      <footer class="no-print">
         {
           email && (
             <a
