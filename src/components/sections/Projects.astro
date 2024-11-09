@@ -9,13 +9,13 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, color, isActive, github }) => {
           return (
             <li>
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`} style={`color: ${color};`}>
                       {name}
                     </a>
                     {isActive && <span>•</span>}
@@ -73,7 +73,8 @@ import { projects } from "@cv"
   }
 
   article a {
-    color: #111;
+    font-weight: 600;
+    font-size: 16px;
   }
 
   article a:hover {
@@ -82,6 +83,7 @@ import { projects } from "@cv"
 
   article p {
     font-size: 0.9rem;
+    text-align: left;
     color: #333333;
     line-height: 1.2rem;
     margin-bottom: 4px;

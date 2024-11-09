@@ -45,7 +45,7 @@
       "image": "https://www.encb.ipn.mx/assets/files/encb/img/escudos/logo-ipn.png",
       "color": "#8C1858",
       "url": "https://www.esimez.ipn.mx/",
-      "area": "Ingeniería en Comunicaciones y Electrónica",
+      "area": "Ing. en Comunicaciones y Electrónica",
       "studyType": "Bachelor",
       "startDate": "2018-08-24",
       "endDate": "2023-06-16",
@@ -191,6 +191,7 @@
   "projects": [
     {
       "name": "Cotizadores",
+      "color": "#0b51ec",
       "isActive": false,
       "description": "Plataforma para emisión de pólizas de seguro, desarrollada para una aseguradora. El proyecto incluyó el diseño de formularios interactivos y la integración con servicios proporcionados por la empresa.",
       "highlights": [
@@ -204,6 +205,7 @@
     },
     {
       "name": "Plataforma de Conexión Inquilino-Propietario",
+      "color": "#0b51ec",
       "isActive": true,
       "description": "Aplicación web en desarrollo que facilita la conexión entre inquilinos y propietarios, permitiendo generar contratos de renta y gestionar pagos. La plataforma incluye seguros para proteger los intereses del propietario en caso de impago.",
       "highlights": [
