@@ -1,190 +1,163 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
+    "name": "Oscar Meneses Solís",
+    "label": "Desarrollador Frontend",
+    "image": "/me.png",
+    "email": "mmeneses.solis.oscar99@gmail.com",
+    "phone": "+52 5567039752",
     "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "Soy un profesional con experiencia en desarrollo web, especializado en la implementación de diseños en código y optimización de procesos en aplicaciones existentes.\nMi enfoque autodidacta y mi proactividad me han permitido aprender rápidamente, asumir responsabilidades clave y colaborar estrechamente con los equipos.\nHe trabajado con tecnologías como Figma, Google Cloud Platform y SonarQube, y he sido responsable de la gestión de versiones y despliegues.\n\nMi experiencia en proyectos ágiles, especialmente en Scrum, me ha permitido desarrollar habilidades de comunicación directa con clientes, trabajando en equipo para cumplir objetivos comunes. Siempre busco mejorar la experiencia de usuario y optimizar la calidad del código, aportando ideas innovadoras y soluciones eficientes.\n\n",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "07530",
+      "city": "CDMX",
+      "countryCode": "MX",
+      "region": "México"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "oscarmeneses99",
+        "url": "https://linkedin.com/in/oscarmeneses99"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "OscarMeneses99",
+        "url": "https://github.com/OscarMeneses99"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Services & Processes Solutions",
+      "position": "Desarrollador Frontend Trainee",
+      "url": "https://spsolutions.com.mx/",
+      "startDate": "2024-02-26",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Fui responsable de implementar diseños en código, tomando las interfaces creadas en Figma y asegurando su correcta integración en aplicaciones web ya existentes.\nTrabajé estrechamente con el equipo senior para comprender los requisitos del proyecto y contribuir a la implementación de nuevas funcionalidades.\nTambién realicé pruebas end to end para asegurar la calidad y el correcto funcionamiento de las aplicaciones.\n\nDurante mi tiempo en la empresa, fui parte de una iniciativa orientada a investigar y mejorar los estándares de desarrollo, lo que me permitió colaborar en la definición de buenas prácticas y optimización de procesos.\nAdemás, participé en dos proyectos clave para SPS, donde desarrollé habilidades de comunicación directa con el cliente, participando y proyectando los avances en las revisiones de proyecto (project reviews).\nEsta experiencia me brindó una sólida base en metodologías ágiles, especialmente en Scrum, y fortaleció mis habilidades para el trabajo en equipo.\n\nFui autosuficiente en la gestión y despliegue de versiones en Google Cloud Platform (GCP), y utilizaba SonarQube para asegurar la calidad y seguridad del código.\nAdemás, como consultor, aplicaba mis conocimientos para optimizar la experiencia de usuario, reduciendo pantallas o simplificando procesos según fuera necesario.\n\n",
+      "highlights": ["Started the company"]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "education": [
+    {
+      "institution": "IPN ESIME Zacatenco",
+      "url": "https://www.esimez.ipn.mx/",
+      "area": "Ingeniería en Comunicaciones y Electrónica",
+      "studyType": "Bachelor",
+      "startDate": "2018-08-24",
+      "endDate": "2023-06-16",
+      "score": "7.29",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "CETIS #55",
+      "url": "https://cetis55.com/",
+      "area": "Técnico en Programación",
+      "studyType": "Bachelor",
+      "startDate": "2015-08-01",
+      "endDate": "2017-06-01",
+      "score": "8.4",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -197,79 +170,46 @@
       "fluency": "Advanced"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "Cotizadores",
+      "isActive": false,
+      "description": "Plataforma para emisión de pólizas de seguro, desarrollada para una aseguradora. El proyecto incluyó el diseño de formularios interactivos y la integración con servicios proporcionados por la empresa.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Sprint de desarrollo de 3 semanas",
+        "Trabajo en equipo con otros programadores",
+        "Sistema de emisión de pólizas para colaboradores de la aseguradora",
+        "Urgencia debido al cierre de un sistema legacy basado en Oracle"
       ],
-      "url": "https://mars.codes"
+      "url": null,
+      "github": null
     },
     {
-      "name": "AdventJS",
+      "name": "Plataforma de Conexión Inquilino-Propietario",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Aplicación web en desarrollo que facilita la conexión entre inquilinos y propietarios, permitiendo generar contratos de renta y gestionar pagos. La plataforma incluye seguros para proteger los intereses del propietario en caso de impago.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Desarrollo en curso, aún no lanzado a producción",
+        "Eliminación del proceso tradicional entre inquilino y propietario",
+        "Generación automática de contratos y opciones de pago",
+        "Seguro que cubre el riesgo de impago por parte del inquilino",
+        "Enfoque en seguridad y privacidad de los datos"
       ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": null,
+      "github": null
     }
   ]
 }

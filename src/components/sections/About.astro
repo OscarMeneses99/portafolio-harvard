@@ -7,6 +7,19 @@ const { summary } = basics
 
 <Section title="Sobre mí">
   <p>
-    {summary}
+    <p>{summary.replace(/^\s+/, '')}</p>
   </p>
 </Section>
+
+
+<style>
+  p {
+    color: #666;
+    font-size: 16px;
+    text-align: justify;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+</style>
