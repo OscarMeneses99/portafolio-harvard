@@ -19,7 +19,9 @@ const SOCIAL_ICONS: SocialIcon = {
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
+const gitHubInfo = profiles.find(({ network }) => network === "GitHub")
+const linkedUrl = linkedInfo?.username
+const gitHubUrl = gitHubInfo?.username
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
@@ -33,10 +35,27 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
-        {printInfo}
-      </footer>
       <footer class="no-print">
+        <ul>
+          <li>
+            <Mail/>
+            {email}
+          </li>
+          <li>
+            <Phone/>
+            {phone}
+          </li>
+          <li>
+            <LinkedIn/>
+            {linkedUrl}
+          </li>
+          <li>
+            <GitHub/>
+            {gitHubUrl}
+          </li>
+        </ul>
+      </footer>
+      <footer class="print">
         {
           email && (
             <a
@@ -99,6 +118,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 
   h1 {
