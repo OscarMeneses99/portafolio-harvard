@@ -1,19 +1,31 @@
 ---
-import Section from "../Section.astro"
 import { work } from "@cv"
+import Section from "../Section.astro"
 ---
 
 <Section title="Experiencia laboral">
   <ul>
     {
       work.map(
-        ({ name, image, startDate, endDate, position, summary, highlights, url }) => {
-          const startDateObj = new Date(startDate)
-          const endDateObj = endDate != null ? new Date(endDate) : null
+        ({
+          name,
+          image,
+          startDate,
+          endDate,
+          position,
+          summary,
+          highlights,
+          url,
+        }) => {
+          const startDateObj = new Date(startDate);
+          const endDateObj = endDate != null ? new Date(endDate) : null;
 
           // Formatear la fecha de inicio para mostrar mes y año
-          const startMonthYear = startDateObj.toLocaleDateString('es-ES', { year: 'numeric', month: 'short' })
-          const endYear = endDateObj ? endDateObj.getFullYear() : "Actual"
+          const startMonthYear = startDateObj.toLocaleDateString("es-ES", {
+            year: "numeric",
+            month: "short",
+          });
+          const endYear = endDateObj ? endDateObj.getFullYear() : "Actual";
 
           return (
             <li>
@@ -31,16 +43,12 @@ import { work } from "@cv"
                     </div>
                   </div>
                   <div class="dates">
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startMonthYear}
+                    <time datetime={startDate} data-title={startDate}>
+                      {startMonthYear}
                     </time>
                     {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
+                    <time datetime={endDate} data-title={endDate}>
+                      {endYear}
                     </time>
                   </div>
                 </header>
@@ -50,7 +58,7 @@ import { work } from "@cv"
                 </footer>
               </article>
             </li>
-          )
+          );
         }
       )
     }
@@ -135,10 +143,15 @@ import { work } from "@cv"
     content: attr(data-title);
     background-color: #333;
     color: #fff;
-    font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
     position: absolute;
-    padding: .2rem .5rem;
+    padding: 0.2rem 0.5rem;
     bottom: -1.4rem;
     left: 50%;
     white-space: nowrap;
@@ -158,7 +171,7 @@ import { work } from "@cv"
     .dates {
       text-align: right;
     }
-    header{
+    header {
       flex-direction: column;
       gap: 8px;
     }

@@ -2,7 +2,7 @@
 import { basics } from "@cv"
 
 interface Props {
-  title: string
+	title: string
 }
 
 const { title } = Astro.props
@@ -27,7 +27,7 @@ const { image, summary, url } = basics
     <meta property="og:image" content="" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
+    <meta property="twitter:domain" content={url.split("//")[1] ?? ""} />
     <meta property="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={summary} />
@@ -51,7 +51,6 @@ const { image, summary, url } = basics
     letter-spacing: -0.025rem;
   }
 
-
   body {
     background-color: white;
     position: absolute;
@@ -59,12 +58,15 @@ const { image, summary, url } = basics
     z-index: -10;
     height: max-content;
     width: 100%;
-    background-image: 
-      linear-gradient(to right, rgba(135, 135, 128, 0.10) 1px, transparent 1px), 
-      linear-gradient(to bottom, rgba(135, 135, 128, 0.10) 1px, transparent 1px);
+    background-image: linear-gradient(
+        to right,
+        rgba(135, 135, 128, 0.1) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, rgba(135, 135, 128, 0.1) 1px, transparent 1px);
     background-size: 14px 24px;
   }
-  
+
   figure {
     margin: 0;
     padding: 0;

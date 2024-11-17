@@ -2,23 +2,23 @@
 // se ejecuta en el servidor o en build time <----
 const { title } = Astro.props
 
-let image
+let image: string | undefined
 switch (title) {
-  case "Sobre mí":
-    image = "/about.png"
-  break
-  case "Experiencia laboral":
-    image = "/work.png"
-  break
-  case "Educación":
-    image = "/education.png"
-  break
-  case "Proyectos":
-    image = "/projects.png"
-  break
-  case "Habilidades":
-    image = "/skills.png"
-  break
+	case "Sobre mí":
+		image = "/about.png"
+		break
+	case "Experiencia laboral":
+		image = "/work.png"
+		break
+	case "Educación":
+		image = "/education.png"
+		break
+	case "Proyectos":
+		image = "/projects.png"
+		break
+	case "Habilidades":
+		image = "/skills.png"
+		break
 }
 ---
 

@@ -1,21 +1,21 @@
 ---
-import { basics } from "@cv"
 import Section from "@/components/Section.astro"
+import GitHub from "@/icons/GitHub.astro"
+import LinkedIn from "@/icons/LinkedIn.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
-import X from "@/icons/X.astro"
-import LinkedIn from "@/icons/LinkedIn.astro"
-import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
+import X from "@/icons/X.astro"
 import type { SocialIcon } from "@/types"
+import { basics } from "@cv"
 
 const { name, label, image, location, profiles, phone, email } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
-  GitHub,
-  LinkedIn,
-  X,
+	GitHub,
+	LinkedIn,
+	X,
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
@@ -38,19 +38,19 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       <footer class="print">
         <ul>
           <li>
-            <Mail/>
+            <Mail />
             {email}
           </li>
           <li>
-            <Phone/>
+            <Phone />
             {phone}
           </li>
           <li>
-            <LinkedIn/>
+            <LinkedIn />
             {linkedUrl}
           </li>
           <li>
-            <GitHub/>
+            <GitHub />
             {gitHubUrl}
           </li>
         </ul>
@@ -82,7 +82,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
         {
           profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network]
+            const Icon = SOCIAL_ICONS[network];
 
             return (
               <a
@@ -93,7 +93,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               >
                 <Icon />
               </a>
-            )
+            );
           })
         }
       </footer>
@@ -120,13 +120,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     padding-right: 32px;
   }
 
-  ul{
+  ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
 
-  li{
+  li {
     display: flex;
     align-items: center;
     gap: 8px;
