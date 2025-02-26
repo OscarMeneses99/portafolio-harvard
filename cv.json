@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Oscar Meneses Solís",
-    "label": "Desarrollador Frontend",
+    "label": "Desarrollador Frontend Jr",
     "image": "/me.png",
     "email": "meneses.solis.oscar99@gmail.com",
     "phone": "+52 5567039752",
@@ -35,14 +35,14 @@
       "url": "https://spsolutions.com.mx/",
       "startDate": "2024-02-26",
       "endDate": null,
-      "summary": "Fui responsable de implementar diseños en código, tomando las interfaces creadas en Figma y asegurando su correcta integración en aplicaciones web ya existentes.\nTrabajé estrechamente con el equipo senior para comprender los requisitos del proyecto y contribuir a la implementación de nuevas funcionalidades.\n\nDurante mi tiempo en la empresa, fui parte de una iniciativa orientada a investigar y mejorar los estándares de desarrollo, lo que me permitió colaborar en la definición de buenas prácticas y optimización de procesos.\nAdemás, participé en dos proyectos clave para SPS, donde desarrollé habilidades de comunicación directa con el cliente, participando y proyectando los avances en las revisiones de proyecto (project reviews).\nEsta experiencia me brindó una sólida base en metodologías ágiles, especialmente en Scrum, y fortaleció mis habilidades para el trabajo en equipo.\n\nFui autosuficiente en la gestión y despliegue de versiones en Google Cloud Platform (GCP), y utilizaba SonarQube para asegurar la calidad y seguridad del código.\nAdemás, como consultor, aplicaba mis conocimientos para optimizar la experiencia de usuario, reduciendo pantallas o simplificando procesos según fuera necesario.\n\n",
+      "summary": "Soy responsable de implementar diseños en código, tomando las interfaces creadas en Figma y asegurando su correcta integración en aplicaciones web ya existentes.\nTrabajo estrechamente con el equipo senior para comprender los requisitos del proyecto y contribuir a la implementación de nuevas funcionalidades.\n\nEn la empresa, soy parte de una iniciativa orientada a investigar y mejorar los estándares de desarrollo, lo que me permite colaborar en la definición de buenas prácticas y optimización de procesos.\nAdemás, participo en dos proyectos clave para SPS, donde desarrollo habilidades de comunicación directa con el cliente, participando y proyectando los avances en las revisiones de proyecto (project reviews).\n\nEsta experiencia me brinda una sólida base en metodologías ágiles, especialmente en Scrum, y fortalece mis habilidades para el trabajo en equipo.\n\nSoy autosuficiente en la gestión y despliegue de versiones en Google Cloud Platform (GCP), y utilizo SonarQube para asegurar la calidad y seguridad del código.\nAdemás, como consultor, aplico mis conocimientos para optimizar la experiencia de usuario, reduciendo pantallas o simplificando procesos según sea necesario.\n\n",
       "highlights": ["Started the company"]
     }
   ],
   "education": [
     {
       "institution": "IPN ESIME Zacatenco",
-      "image": "https://www.encb.ipn.mx/assets/files/encb/img/escudos/logo-ipn.png",
+      "image": "/ipn-logo.png",
       "color": "#8C1858",
       "url": "https://www.esimez.ipn.mx/",
       "area": "Ing. en Comunicaciones y Electrónica",
